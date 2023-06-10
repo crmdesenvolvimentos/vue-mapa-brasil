@@ -1,0 +1,137 @@
+[
+    {
+        "cod": 12,
+        "sigla": "AC",
+        "uf": "Acre"
+    },
+    {
+        "cod": 27,
+        "sigla": "AL",
+        "uf": "Alagoas"
+    },
+    {
+        "cod": 16,
+        "sigla": "AP",
+        "uf": "Amapá"
+    },
+    {
+        "cod": 13,
+        "sigla": "AM",
+        "uf": "Amazonas"
+    },
+    {
+        "cod": 29,
+        "sigla": "BA",
+        "uf": "Bahia"
+    },
+    {
+        "cod": 23,
+        "sigla": "CE",
+        "uf": "Ceará"
+    },
+    {
+        "cod": 53,
+        "sigla": "DF",
+        "uf": "Distrito Federal"
+    },
+    {
+        "cod": 32,
+        "sigla": "ES",
+        "uf": "Espírito Santo"
+    },
+    {
+        "cod": 52,
+        "sigla": "GO",
+        "uf": "Goiás"
+    },
+    {
+        "cod": 21,
+        "sigla": "MA",
+        "uf": "Maranhão"
+    },
+    {
+        "cod": 51,
+        "sigla": "MT",
+        "uf": "Mato Grosso"
+    },
+    {
+        "cod": 50,
+        "sigla": "MS",
+        "uf": "Mato Grosso do Sul"
+    },
+    {
+        "cod": 31,
+        "sigla": "MG",
+        "uf": "Minas Gerais"
+    },
+    {
+        "cod": 15,
+        "sigla": "PA",
+        "uf": "Pará"
+    },
+    {
+        "cod": 25,
+        "sigla": "PB",
+        "uf": "Paraíba"
+    },
+    {
+        "cod": 41,
+        "sigla": "PR",
+        "uf": "Paraná"
+    },
+    {
+        "cod": 26,
+        "sigla": "PE",
+        "uf": "Pernambuco"
+    },
+    {
+        "cod": 22,
+        "sigla": "PI",
+        "uf": "Piauí"
+    },
+    {
+        "cod": 33,
+        "sigla": "RJ",
+        "uf": "Rio de Janeiro"
+    },
+    {
+        "cod": 24,
+        "sigla": "RN",
+        "uf": "Rio Grande do Norte"
+    },
+    {
+        "cod": 43,
+        "sigla": "RS",
+        "uf": "Rio Grande do Sul"
+    },
+    {
+        "cod": 11,
+        "sigla": "RO",
+        "uf": "Rondônia"
+    },
+    {
+        "cod": 14,
+        "sigla": "RR",
+        "uf": "Roraima"
+    },
+    {
+        "cod": 42,
+        "sigla": "SC",
+        "uf": "Santa Catarina"
+    },
+    {
+        "cod": 35,
+        "sigla": "SP",
+        "uf": "São Paulo"
+    },
+    {
+        "cod": 28,
+        "sigla": "SE",
+        "uf": "Sergipe"
+    },
+    {
+        "cod": 17,
+        "sigla": "TO",
+        "uf": "Tocantins"
+    }
+]
