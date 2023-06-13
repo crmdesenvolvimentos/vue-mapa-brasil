@@ -30,10 +30,17 @@ async function findNoticias(code) {
     code
   )
   info.value = 'Buscando cidades do estado selecionado...'
-  const response = await fetch(url)
-  cidades.value = await response.json()
-  list_cidades.value = cidades.value
-  info.value = cidades.value.length + ' Cidades'
+  try {
+    const response = await fetch(url, { signal: AbortSignal.timeout(4000) })
+    cidades.value = await response.json()
+    list_cidades.value = cidades.value
+    info.value = cidades.value.length + ' Cidades'
+  } catch (e) {
+    if (e.name === 'AbortError') {
+      console.log('4000 ms timeout')
+    }
+    info.value = 'Ops, não consegui listar as cidades deste estado. ' + e
+  }
 }
 
 watch(search, (text) => {
@@ -72,6 +79,7 @@ watch(search, (text) => {
       <div v-if="info" class="mt-5">
         <p class="text-white">{{ info }}</p>
         <input
+          v-if="cidades"
           type="search"
           placeholder="Pesquisar cidade"
           class="w-full py-2 px-2 rounded"
